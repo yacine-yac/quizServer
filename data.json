@@ -1,0 +1,48 @@
+[ 
+        { 
+                "proposition": [
+                        {"status":false,"value": "first"},
+                        {"status":false,"value":  "second"},
+                        {"status":false,"value":  "third"},
+                        {"status":false,"value":  "fourth"}
+                ],
+                "question": "what is your name ?",
+                "choice":false,
+                "truth":[0]
+        },
+        {  
+                "proposition": [
+                                {"status":false,"value":  "Yes,I did" },
+                                {"status":false,"value":  "No, I didn't"},
+                                {"status":false,"value": "dsfdsfsd"},
+                                {"status":false,"value": "fourth"}
+                ],
+                "question": "Can fix html issues?",
+                "choice":false,
+                "truth":[0]
+        },
+        {
+                "proposition": [
+                                {"status":false,"value":  "12:05PM"},
+                                {"status":false,"value":  "05:58PM"},
+                                {"status":false,"value": "01:00AM"},
+                                {"status":false,"value": "06:33PM"}
+                ],
+                "question": "did you go to esgen school ?",
+                "choice":true,
+                "truth":[2,3]
+        },
+        {
+            
+                "proposition":[
+                                {"status":false,"value":  "May be!"},
+                                {"status":false,"value":    "Oh, No I can't do that"},
+                                {"status":false,"value":   "ok, so what's the problem"},
+                                {"status":false,"value":   "No,I am bisy today"}
+                ],
+                "question":"What time is it Bro?",
+                "choice":true,
+                "truth":[1,3]
+        }
+     
+]
