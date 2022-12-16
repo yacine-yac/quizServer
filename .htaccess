@@ -1,0 +1,4 @@
+#start
+RewriteEngine on
+DirectoryIndex index.php
+

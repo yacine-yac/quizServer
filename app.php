@@ -21,7 +21,7 @@ class Check{
     function checkAnwsers(Array $answers=[]):Array{
         $answers=$this->answers; 
         $output=[];
-       foreach($answers as $k=>$v){
+       foreach($answers as $k=>$v){  
             $output[$k]['final']=$this->truth[$k]; 
            if($v['checked']==$this->truth[$k]){  
                 $output[$k]['status']=true;
@@ -49,6 +49,8 @@ class Check{
         return json_encode($output);
     }
 }
+// print_r(  $data );
+// echo gettype( $received_data);
 $app=new Check($received_data);
 $resulted=$app->getResponse();
 print_r($resulted);  
