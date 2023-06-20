@@ -1,4 +1,4 @@
 <?php
-session_set_cookie_params(40);
+session_set_cookie_params(35);
 
 ?>
