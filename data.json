@@ -1,48 +1,48 @@
 [ 
         { 
                 "proposition": [
-                        {"status":false,"value": "first"},
-                        {"status":false,"value":  "second"},
-                        {"status":false,"value":  "third"},
-                        {"status":false,"value":  "fourth"}
+                                {"status":false,"value":  "Hong Kong" },
+                                {"status":false,"value":  "Egypt"},
+                                {"status":false,"value": "India"},
+                                {"status":false,"value": "China"}
                 ],
-                "question": "what is your name ?",
+                "question": "What country has the highest life expectancy ?",
                 "choice":false,
                 "truth":[0]
         },
         {  
                 "proposition": [
-                                {"status":false,"value":  "Yes,I did" },
-                                {"status":false,"value":  "No, I didn't"},
-                                {"status":false,"value": "dsfdsfsd"},
-                                {"status":false,"value": "fourth"}
+                                {"status":false,"value":  "In 1943"},
+                                {"status":false,"value":  "In 1990"},
+                                {"status":false,"value": "In 1919"},
+                                {"status":false,"value": "In 1945"}
                 ],
-                "question": "Can fix html issues?",
+                "question": "What year was the United Nations established ?",
                 "choice":false,
-                "truth":[0]
+                "truth":[4]
         },
         {
                 "proposition": [
-                                {"status":false,"value":  "12:05PM"},
-                                {"status":false,"value":  "05:58PM"},
-                                {"status":false,"value": "01:00AM"},
-                                {"status":false,"value": "06:33PM"}
+                                {"status":false,"value":  "Ukraine"},
+                                {"status":false,"value":  "Bulgaria"},
+                                {"status":false,"value": "Poland"},
+                                {"status":false,"value": "Austria"}
                 ],
-                "question": "did you go to esgen school ?",
+                "question": "Which country does not share a border with Romania ?",
                 "choice":true,
                 "truth":[2,3]
         },
         {
             
                 "proposition":[
-                                {"status":false,"value":  "May be!"},
-                                {"status":false,"value":    "Oh, No I can't do that"},
-                                {"status":false,"value":   "ok, so what's the problem"},
-                                {"status":false,"value":   "No,I am bisy today"}
+                                {"status":false,"value":  "France"},
+                                {"status":false,"value":    "Austria"},
+                                {"status":false,"value":   "Belgium"},
+                                {"status":false,"value":   "Morroco"}
                 ],
-                "question":"What time is it Bro?",
+                "question":"From which country do French fries originate ?",
                 "choice":true,
-                "truth":[1,3]
+                "truth":[2]
         }
      
 ]
